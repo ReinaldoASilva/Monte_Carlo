@@ -1,0 +1,38 @@
+# Simulação de Estratégias de Apostas com Monte Carlo e Martingale
+
+Este é um exemplo de código em Python que realiza simulações de estratégias de apostas usando Monte Carlo e Martingale. O código realiza as seguintes etapas:
+
+## Monte Carlo
+
+1. Importa as bibliotecas necessárias, incluindo random, seaborn, matplotlib e numpy.
+2. Define as variáveis iniciais, como capital, tamanho da aposta, probabilidade de vitória e recompensas para vitória e perda.
+3. Cria um gráfico para visualizar as curvas de capital resultantes das simulações.
+4. Executa um loop para realizar várias simulações de apostas usando Monte Carlo.
+5. Calcula o equilíbrio de capital resultante para cada simulação e adiciona-o à curva de capital.
+6. Plota a curva de capital resultante para cada simulação.
+7. Calcula a média dos resultados das simulações.
+
+## Martingale
+
+1. Define as variáveis iniciais para a estratégia de Martingale, incluindo capital, tamanho da aposta inicial, probabilidade de vitória e recompensas para vitória e perda.
+2. Cria um gráfico para visualizar a curva de capital resultante da estratégia de Martingale.
+3. Executa um loop para realizar várias iterações da estratégia de Martingale.
+4. Atualiza o tamanho da aposta com base no resultado da aposta anterior.
+5. Calcula o equilíbrio de capital resultante para cada iteração e adiciona-o à curva de capital.
+6. Plota a curva de capital resultante da estratégia de Martingale.
+
+## Requisitos
+
+Certifique-se de ter as seguintes bibliotecas instaladas:
+
+- random
+- seaborn
+- matplotlib
+- numpy
+
+Você pode instalar as bibliotecas usando o pip:
+pip install seaborn matplotlib numpy
+
+## Resultados
+
+Os resultados das simulações de Monte Carlo e da estratégia de Martingale serão exibidos em gráficos, mostrando as curvas de capital resultantes.
